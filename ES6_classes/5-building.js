@@ -1,9 +1,9 @@
 export default class Building {
   constructor(sqft) {
-      if (this.constructor === Building) {
-          throw new Error('');
-      }
-      this._sqft = sqft;
+    if (this.constructor === Building) {
+      throw new Error("Can't instanciate");
+    }
+    this._sqft = sqft;
   }
 
   get sqft() {
