@@ -1,6 +1,6 @@
 export default function getListStudentIds(...args) {
   if (typeof args === Array) {
-    return [args.id];
+    return args.map((arg) => arg.id);
   }
   else {
    return [];
