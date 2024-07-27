@@ -3,7 +3,7 @@ export default function cleanSet(set, startSting) {
 
   for (const i of set) {
     if (i.startsWith(startSting)) {
-      result.push(i);
+      result.push(i.slice(startSting.length));
     }
   }
   return result.join('-');
