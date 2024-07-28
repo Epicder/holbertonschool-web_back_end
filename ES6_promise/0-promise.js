@@ -1,7 +1,10 @@
 export default function getResponseFromAPI() {
   return new Promise((resolve) => {
     setTimeout(() => {
-      resolve('Ok');
+      resolve({
+        status: 200,
+        
+      });
     }, 2000);
   });
 }
