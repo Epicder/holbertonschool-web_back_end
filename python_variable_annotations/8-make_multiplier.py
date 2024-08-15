@@ -6,4 +6,7 @@ from typing import Callable
 
 def make_multiplier(multiplier: float) -> Callable[[float], float]:
     """typed function that takes a float number as argument and returns the product of number and multiplier."""
-    def mult
+    def multiply(x: float) -> float:
+        """the function that will be returned"""
+        return x * multiplier
+    return multiply
