@@ -3,8 +3,9 @@
 """
 takes a list input_list of floats as argument and returns their sum
 """
+import typing
 
 
-def sum_list(input_list: float) -> list:
+def sum_list(input_list: typing.List[float]) -> typing.List[float]:
     """sum a passed list"""
     return sum(input_list)
