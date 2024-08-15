@@ -4,5 +4,5 @@
 
 
 def to_str(n: float) -> str:
-    """Convert a float to a string, rounding to 2 decimal places."""    
-    return "{:.2f}".format(n)
+    """Convert a float to a string, rounding to 2 decimal places."""
+    return "{:.3f}".format(n)
