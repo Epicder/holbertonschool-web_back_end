@@ -9,4 +9,4 @@ async_generator = __import__('0-async_generator').async_generator
 
 async def async_comprehension() -> typing.List[float]:
     """Uses async for to iterate"""
-    return [number async for number in async_generator()]
+    return [item async for item in async_generator()]
