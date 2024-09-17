@@ -16,13 +16,17 @@
         "express": "^4.17.1"
     },
     "devDependencies": {
+        "@babel/core": "^7.25.2",
+        "@babel/preset-env": "^7.25.4",
         "babel-cli": "^6.26.0",
+        "babel-jest": "^29.7.0",
         "babel-preset-env": "^0.0.0",
         "chai": "^4.4.1",
         "eslint": "^6.8.0",
         "eslint-config-airbnb-base": "^14.2.1",
         "eslint-plugin-import": "^2.29.1",
         "eslint-plugin-jest": "^28.8.3",
+        "jest": "^29.7.0",
         "lint": "*",
         "mocha": "^10.7.3",
         "nodemon": "^3.1.4",
