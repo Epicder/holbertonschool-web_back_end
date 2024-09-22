@@ -1,13 +1,11 @@
+const fs = require('fs');
 function countStudents(path) {
-  const fs = require('fs');
-  try {
 
+  try {
     const data = fs.readFileSync(path, 'utf-8');
     const lines = data.split('\n').filter(line => line.trim().length > 0);
     const students = lines.slice(1);
-
     console.log(`Number of students: ${students.length}`);
-
     const fields = {};
 
     students.forEach((line) => {
