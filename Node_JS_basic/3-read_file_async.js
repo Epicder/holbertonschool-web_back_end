@@ -32,8 +32,8 @@ async function countStudents(path) {
       console.log(`Number of students in ${field}: ${students.length}. List: ${students.join(', ')}`);
     }
 
-    } catch (error) {
-        throw new Error('Cannot load the database');
+  } catch (error) {
+    throw new Error('Cannot load the database');
   }
 }
 
